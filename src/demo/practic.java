@@ -21,7 +21,10 @@ public class practic {
 	 driver.findElement(By.xpath("//button[@type='submit']")).click();
 	
 	
-	 
+	 driver.findElement(By.xpath("(//*[@viewBox='0 0 28 28'])[2]")).click();
+	 driver.findElement(By.xpath("(//*[@role='presentation'])[1]")).click();
+	Thread.sleep(3000);
+	driver.close();
 	}
 
 }
